@@ -1,8 +1,14 @@
 [gd_scene format=3 uid="uid://dv3eoski66pap"]
 
+[ext_resource type="Texture2D" uid="uid://cxq4iy08slvnl" path="res://sprites/cannon.png" id="1_ig7tw"]
+
 [node name="Main" type="Node2D" unique_id=1194361804]
 
 [node name="Label" type="Label" parent="." unique_id=743415536]
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Cosmic Siege"
+
+[node name="Cannon" type="Sprite2D" parent="." unique_id=751811325]
+position = Vector2(24, 220)
+texture = ExtResource("1_ig7tw")
