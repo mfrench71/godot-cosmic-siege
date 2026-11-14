@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dpq7ebo3o5oos"]
+
+[ext_resource type="Texture2D" uid="uid://cr1wks11wxeh2" path="res://sprites/shot.png" id="1_awion"]
+[ext_resource type="Script" uid="uid://djpfsxmqucd1j" path="res://shot.gd" id="2_3ldfn"]
+
+[node name="Shot" type="Sprite2D" unique_id=343139597]
+texture = ExtResource("1_awion")
+centered = false
+script = ExtResource("2_3ldfn")
