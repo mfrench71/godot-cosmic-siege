@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://cxq4iy08slvnl" path="res://sprites/cannon.png" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://sl4o4fgyvxw1" path="res://cannon.gd" id="2_0xm2m"]
-[ext_resource type="PackedScene" uid="uid://dpq7ebo3o5oos" path="res://shot.tscn" id="3_h2yge"]
 
 [node name="Main" type="Node2D" unique_id=1194361804]
 
@@ -15,6 +14,3 @@ text = "Cosmic Siege"
 position = Vector2(24, 220)
 texture = ExtResource("1_ig7tw")
 script = ExtResource("2_0xm2m")
-
-[node name="Shot" parent="." unique_id=343139597 instance=ExtResource("3_h2yge")]
-position = Vector2(24, 212)
