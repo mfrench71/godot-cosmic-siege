@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dhiu6g4jnxmg5"]
+
+[ext_resource type="Texture2D" uid="uid://nodjctgjv2hr" path="res://sprites/alien.png" id="1_816kv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6xth8"]
+size = Vector2(12, 8)
+
+[node name="Alien" type="Area2D" unique_id=717611648]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1802684694]
+texture = ExtResource("1_816kv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=964565609]
+shape = SubResource("RectangleShape2D_6xth8")
